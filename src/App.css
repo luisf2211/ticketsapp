@@ -1,38 +1,196 @@
-.App {
+.App 
+{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppTable{
+  text-align: center;
+  margin-bottom: 120px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-Not-Found{
+  margin-top: 2%;
+  text-align: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+hr
+{
+  width: 35%;
+  padding: 1px;
+  background-color: #FF6246;
+  border: 1px solid #FF6246;
+
+}
+
+body
+{
+  /* background-color: #272B34; */
+  /* color: white; */
+  color: #586067;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Home-Component
+{
+  text-align: center;
+}
+
+.form-control
+{
+  padding: 10px;
+  width: 20rem;
+  border: 1px solid rgba(244, 244, 244, 0);
+  background-color: #E5EEF4;
+  border-radius: 3px;
+  color: #586067;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-area
+{
+  padding: 5px;
+  height: 100px;
+  width: 360px;
+  border: 1px solid rgba(244, 244, 244, 0);
+  background-color: #E5EEF4;
+  border-radius: 10px;
+  color: #586067;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnEnviarCaso
+{
+  padding: 10px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: #FF6246; 
+  color: white;
+  border-radius: 7px;
+  height: 60px;
+  width: 180px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
+}
+
+.btnEnviarCaso:hover {height: 65px ;width: 185px; transition: 0.4s; font-weight: bold; font-size: 15px;}
+
+.buttonnn{
+  background-color: #586067;
+}
+
+.notfoundImage{
+  width: 400px;
+  transition: 0.4s;
+}
+
+.notfoundImage:hover {width: 420px; transition: 0.4s;}
+/* List Tickets Component CSS */
+
+table{
+  margin: auto;
+  padding: auto;
+  width: 35rem;
+  border-collapse: collapse;
+  border: solid 1px #58606711;
+  border-radius: 10px;
+}
+
+th{
+  background-color: #FF6246;
+  color: white;
+  padding-top: 30px;
+  padding-bottom:30px ;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+
+tr:nth-child(even) {
+  background-color: #8f8f8fa5;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+td{
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr:hover {background-color: #FF6246; color: white;   transition: 0.4s;}
+
+.div1{
+  margin: auto;
+  overflow: scroll;
+  height: 550px;
+}
+
+.detailsBtn{
+  padding: 20px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-color: #FF6246; 
+  color: white;
+  border-radius: 7px;
+  width: 90px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.4s;
+}
+
+.detailsBtn:hover {width: 100px; transition: 0.4s; font-weight: bold; font-size: 15px; background-color: #586067;}
+
+/* Edit Ticket CSS */
+
+.EditTicket{
+  padding: 40px;
+  
+  border-radius: 8px;
+  margin: auto;
+  
+  display: flex;
+}
+
+section{
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+.EditTicket-Details{
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+  margin: auto;
+  width: 80%;
+}
+
+.EditTicket-TxtArea{
+  padding: 20px;
+  border: solid 1px #8f8f8f1a;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ticketDetails{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.case-box{
+  border: solid 1px #8f8f8f1a;
+  border-radius: 8px;
+  margin: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.section1{
+  text-align: left;
+}
+
+.section2{
+  text-align: right;
 }
